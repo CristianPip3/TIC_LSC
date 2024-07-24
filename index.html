@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC en LSC para mujeres que sufren violencia de género</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="public/css/styles.css">
+</head>
+<body>
+    <header>
+        <img src="public/img/logo.jpeg" alt="Logo del Proyecto" class="logo">
+        <h1>TIC en LSC para mujeres que sufren violencia de género</h1>
+        <p>Información y recursos para mujeres con discapacidad auditiva</p>
+    </header>
+    <main class="container">
+        <section class="info">
+            <h2>Sobre Nosotras</h2>
+            <p>Esta página está dedicada a proporcionar información y recursos para mujeres con discapacidad auditiva.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="public/img/center1.jpg" alt="Representativa 1">
+                </div>
+                <div class="col-md-6">
+                    <img src="public/img/center13.jpg" alt="Representativa 2">
+                </div>
+            </div>
+        </section>
+        <section class="resources">
+            <h2>Recursos</h2>
+            <p>Aquí encontrarás una variedad de recursos útiles.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="public/img/center3.jpg" alt="Representativa 3">
+                </div>
+                <div class="col-md-6">
+                    <img src="public/img/center5.jpg" alt="Representativa 4">
+                </div>
+            </div>
+        </section>
+        <section class="violence-awareness">
+            <h2>Concienciación sobre la Violencia</h2>
+            <p>Las mujeres con discapacidad auditiva enfrentan desafíos únicos cuando se trata de la violencia de género. La falta de sistemas de comunicación adecuados y la discriminación pueden dificultar que estas mujeres reciban la ayuda y el apoyo que necesitan.</p>
+            <p>Es crucial crear conciencia sobre estos problemas y trabajar para desarrollar soluciones inclusivas que permitan a todas las mujeres, independientemente de sus capacidades, vivir libres de violencia y discriminación.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="public/img/center10.jpg" alt="Concienciación sobre la violencia 1">
+                </div>
+                <div class="col-md-6">
+                    <img src="public/img/center8.jpg" alt="Concienciación sobre la violencia 2">
+                </div>
+            </div>
+        </section>
+        <section class="popayan-violence">
+            <h2>Violencia de Género en Popayán</h2>
+            <p>En la ciudad de Popayán, la violencia de género es un problema significativo que afecta a muchas mujeres. Las estadísticas muestran un aumento en los casos reportados, lo que subraya la necesidad de intervenciones efectivas y apoyo para las víctimas.</p>
+            <p>La falta de recursos y servicios accesibles para mujeres con discapacidad auditiva agrava la situación, haciendo que sea aún más difícil para ellas buscar ayuda y protección. Nuestro proyecto, "TIC en LSC para mujeres que sufren violencia de género", tiene como objetivo abordar estas barreras y proporcionar soluciones tecnológicas que faciliten la comunicación y el acceso a recursos de apoyo.</p>
+            <p>Es fundamental que la comunidad y las autoridades trabajen juntas para crear un entorno seguro y de apoyo para todas las mujeres, especialmente aquellas que enfrentan desafíos adicionales debido a su discapacidad.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="public/img/center6.jpg" alt="Popayán 1">
+                </div>
+                <div class="col-md-6">
+                    <img src="public/img/center9.jpg" alt="Popayán 2">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contacto: info@ejemplo.com</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('img').on('click', function(){
+                alert('Imagen clickeada: ' + $(this).attr('alt'));
+            });
+        });
+    </script>
+</body>
+</html>
